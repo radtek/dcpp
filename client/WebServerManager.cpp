@@ -657,7 +657,7 @@ void WebServerManager::getLoginPage(WebConnection::WebResponse& response, const 
 	response.page += "		</form>";
 	response.page += "	</div>";
 	response.page += "	<div id='paticka'>";
-	response.page += "		2006-2010 | ApexDC++ Development Team | <a href='http://www.apexdc.net/'>ApexDC++</a>";
+	response.page += "		2006-2010 | ApexDC++ Development Team | <a href='http://dchub.net/'>ApexDC++</a>";
 	response.page += "	</div>";
 	response.page += "</div>";
 	response.page += "</body>";
@@ -686,7 +686,7 @@ void WebServerManager::getErrorPage(WebConnection::WebResponse& response, const 
 	response.page += "		<p><small><strong>Note:</strong> This server is not intended for serving files!</small></p>";
 	response.page += "	</div>";
 	response.page += "	<div id='paticka'>";
-	response.page += "		2006-2010 | ApexDC++ Development Team | <a href='http://www.apexdc.net/'>ApexDC++</a>";
+	response.page += "		2006-2010 | ApexDC++ Development Team | <a href='http://dchub.net/'>ApexDC++</a>";
 	response.page += "	</div>";
 	response.page += "</div>";
 	response.page += "</body>";
@@ -792,7 +792,7 @@ bool WebServerManager::getPage(WebConnection::WebResponse& response, const strin
 	response.page += "			<a href='action.html?id=shutdown&amp;act=0' id='shutdown'></a>";
 	response.page += "	</div>";
 	response.page += "	<div id='paticka'>";
-	response.page += "		2006-2010 | ApexDC++ Development Team | <a href='http://www.apexdc.net/'>ApexDC++</a>";
+	response.page += "		2006-2010 | ApexDC++ Development Team | <a href='http://dchub.net/'>ApexDC++</a>";
 	response.page += "	</div>";
 	response.page += "</div>";
 
