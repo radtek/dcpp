@@ -45,14 +45,17 @@ FavoriteManager::FavoriteManager() : version(0), lastId(0), useHttp(false), runn
 
 	File::ensureDirectory(Util::getHubListsPath());
 
-	addBlacklist("adchublist.com", "Domain used for spam purposes.");
-	addBlacklist("hublist.org", "Domain used for spam purposes.");
-	addBlacklist("hubtracker.com", "Domain lost to unknown owners advertising dubious pharmaceuticals.");
-	addBlacklist("openhublist.org", "Domain used for spam purposes.");
+	addBlacklist("te-home.net", "Domain Blacklist.");
+	addBlacklist("feardc.net", "Domain Blacklist.");
+	addBlacklist("flylinkdc.com", "Domain Blacklist.");
+	addBlacklist("flylinkdc.ru", "Domain Blacklist.");
 	addBlacklist("dchublist.com", "Redirection to the new domain fails. To access this hublist add its new address <https://www.te-home.net/?do=hublist&get=hublist.xml.bz2> instead.");
-	addBlacklist("hublista.hu", "Server discontinued, domain may lost to unknown owners.");
+	addBlacklist("fly-server.ru", "Domain Blacklist.");
+	addBlacklist("hublist.te-home.net", "Domain Blacklist.");
 
-	addBlacklist("adcfun.com", "Domain lost to unknown owners.");
+	addBlacklist("dc.fly-server.ru", "Domain Blacklist.");
+	addBlacklist("nemesis.te-home.net", "Domain Blacklist.");
+	addBlacklist("piter.feardc.net", "Domain Blacklist.");
 	addBlacklist("techgeeks.geekgalaxy.com", "Domain lost to unknown owners.");
 }
 
