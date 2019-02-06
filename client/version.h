@@ -22,7 +22,7 @@
 #define BETA 0
 #define HAS_RDEX 0
 
-#define APP_AUTH_URL "https://development.apexdc.net/auth/login_client/"
+#define APP_AUTH_URL "https://development.dchub.net/auth/login_client/"
 #define APP_AUTH_KEY TIGER(SETTING(CLIENTAUTH_USER) + "." + TIGER(VERSIONSTRING))
 
 #define APPNAME "ApexDC++"
@@ -35,7 +35,7 @@
 # define VERSIONSTRING_FULL GIT_TAG_LONG
 #else
 # define GIT_REF_COMMIT "N/A"
-# define VERSIONSTRING "1.x"
+# define VERSIONSTRING "21653"
 # define VERSIONSTRING_FULL VERSIONSTRING
 # define VERSION_DATE 0
 # define COMPATIBLE_VERSIONID BUILDID
@@ -43,19 +43,19 @@
 
 #if !BETA
 // SourceForge now does provide HTTPS, but not for VHOSTS, TODO: get this off of SourceForge
-# define VERSION_URL "http://update.apexdc.net/version.xml"
+# define VERSION_URL "http://update.dchub.net/version.xml"
 #else
-# define VERSION_URL "https://development.apexdc.net/beta.xml"
+# define VERSION_URL "https://development.dchub.net/beta.xml"
 #endif
 
 // - Added these here so Lee can update them without me, Crise
-#define HOMEPAGE "https://www.apexdc.net/"
-#define DISCUSS "https://forums.apexdc.net/"
-#define DONATE "https://www.apexdc.net/donate/"
-#define GUIDES "https://forums.apexdc.net/forum/13-guides/"
+#define HOMEPAGE "http://dchub.net"
+#define DISCUSS "https://dchublist.biz/forum/"
+#define DONATE "http://dchub.net"
+#define GUIDES "https://dchublist.biz/forum/dcguide/"
 
 // #define GEOIPFILE "https://www.maxmind.com/download/geoip/database/GeoIPCountryCSV.zip"
-#define GEOIPFILE "http://update.apexdc.net/updater/geoip.zip"
+#define GEOIPFILE "http://update.dchub.net/updater/geoip.zip"
 
 #define COMPLETEVERSIONSTRING(user)	APPNAME " " VERSIONSTRING + (!user.empty() ?  " [Login: " + user + "] " : " ") + "(" CONFIGURATION_TYPE ")"
 
