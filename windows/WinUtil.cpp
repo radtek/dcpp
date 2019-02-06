@@ -906,7 +906,7 @@ bool WinUtil::getUCParams(HWND parent, const UserCommand& uc, StringMap& sm) noe
 	return true;
 }
 
-#define LINE2 _T("-- http://www.apexdc.net/  <ApexDC++ ") _T(VERSIONSTRING) _T(" / ") _T(DCVERSIONSTRING) _T(">")
+#define LINE2 _T("-- http://dchub.net/  <ApexDC++ ") _T(VERSIONSTRING) _T(" / ") _T(DCVERSIONSTRING) _T(">")
 TCHAR *msgs[] = { _T("\r\n-- I'm a happy ApexDC++ user. You could be happy too.\r\n") LINE2,
 _T("\r\n-- rm-...what? Nope...never heard of it...\r\n") LINE2,
 _T("\r\n-- Evolution of species: Ape --> Man\r\n-- Evolution of science: \"The Earth is Flat\" --> \"The Earth is Round\"\r\n-- Evolution of sharing: DC++ --> StrongDC++ --> ApexDC++\r\n") LINE2,
@@ -1742,7 +1742,7 @@ uint8_t WinUtil::getFlagIndexByName(const char* countryName) {
 	return 0;
 }
 
-wchar_t arrayutf[42] = { L'Á', L'È', L'Ï', L'É', L'Ì', L'Í', L'¼', L'Ò', L'Ó', L'Ø', L'Š', L'', L'Ú', L'Ù', L'İ', L'', L'á', L'è', L'ï', L'é', L'ì', L'í', L'¾', L'ò', L'ó', L'ø', L'š', L'', L'ú', L'ù', L'ı', L'', L'Ä', L'Ë', L'Ö', L'Ü', L'ä', L'ë', L'ö', L'ü', L'£', L'³' };
+wchar_t arrayutf[42] = { L'Ã', L'Ãˆ', L'Ã', L'Ã‰', L'ÃŒ', L'Ã', L'Â¼', L'Ã’', L'Ã“', L'Ã˜', L'ÂŠ', L'Â', L'Ãš', L'Ã™', L'Ã', L'Â', L'Ã¡', L'Ã¨', L'Ã¯', L'Ã©', L'Ã¬', L'Ã­', L'Â¾', L'Ã²', L'Ã³', L'Ã¸', L'Âš', L'Â', L'Ãº', L'Ã¹', L'Ã½', L'Â', L'Ã„', L'Ã‹', L'Ã–', L'Ãœ', L'Ã¤', L'Ã«', L'Ã¶', L'Ã¼', L'Â£', L'Â³' };
 wchar_t arraywin[42] = { L'A', L'C', L'D', L'E', L'E', L'I', L'L', L'N', L'O', L'R', L'S', L'T', L'U', L'U', L'Y', L'Z', L'a', L'c', L'd', L'e', L'e', L'i', L'l', L'n', L'o', L'r', L's', L't', L'u', L'u', L'y', L'z', L'A', L'E', L'O', L'U', L'a', L'e', L'o', L'u', L'L', L'l' };
 
 const tstring& WinUtil::disableCzChars(tstring& message) {
